@@ -1,0 +1,1 @@
+<a href="tel:#PHONE#" title="#PHONE#">#PHONE#</a>

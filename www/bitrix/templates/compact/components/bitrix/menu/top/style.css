@@ -1,0 +1,29 @@
+.header-top {
+	height: 34px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.header-top__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 13px
+}
+
+.header-top__item:last-child {
+	margin-right: 0
+}
+
+.header-top__link {
+	color: #fff;
+	font-size: 13px;
+	display: block
+}
+
+.header-top__link:hover {
+	text-decoration: underline
+}

@@ -1,0 +1,21 @@
+.mobile-menu__list {
+	display: none;
+	background: #116dc8;
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 100%;
+	flex: 1 1 100%;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.19)
+}
+
+@media (max-width: 900px) {
+	.mobile-menu__list {
+		display: block
+	}
+}
+
+.mobile-menu__list-item-link {
+	border-bottom: 1px solid #297cce;
+	display: block;
+	padding: 14px 25px;
+	color: #fff
+}
